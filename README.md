@@ -1,49 +1,45 @@
-ENDER
---------------------------
+# ENDER
 
-Ender is not a JavaScript library in the traditional sense. So don't rush out and try to replace jQuery or MooTools with Ender... It just wouldn't work.... But! **you can** build a library from Ender which will. And you should. right now.
+**Ender is a full featured package manager for your browser**
 
-That's because: *Ender is an open-module micro-to-macro framework for composing your own custom JavaScript library; it wraps up application-independent modules into a familiar interface so you don't have to.*
+It allows you to search, install, manage, and compile front-end JavaScript packages and their dependencies for the web. We like to think of it as [NPM](https://github.com/isaacs/npm)'s little sister.
 
-Check it out:
+**Ender is not a JavaScript library**
+
+It's not a jQuery replacement. It's not even a static asset. It's a tool for making the consumption of front-end JavaScript packages dead simple and incredibly powerful.
 
 ![Ender](http://f.cl.ly/items/1W0P3I3D3m3U0e1j2h1c/Screen%20shot%202011-05-09%20at%2011.31.42%20AM.png)
 
+## WHY?
 
-OK, SURE... BUT WHY?
---------------------
-Because in the browser - small, loosely coupled modules are the future, and large, tightly-bound monolithic libraries are the past!
+In the browser - **small, loosely coupled modules are the future and large, tightly-bound monolithic libraries are the past!**
 
-For folks in the knows, you can jump straight to the [list of modules](https://github.com/ender-js/Ender/wiki/Ender-package-list)
+Ender capitalizes on this by offering a unique way to bring together the exciting work happening in JavaScript packages and allows you to mix, match, and customize your own build, suited to your individual needs, without all the extra cruft that comes with larger libraries.
 
-Ender is unique and important in two key ways:
+With Ender, if one library goes bad or unmaintained, it can be replaced with another. Need a specific package version? No problem! Does your package have dependencies? Let us handle that for you too!
 
-1) Ender provides front end developers with a true package management system and the powerful command line tools necessary to back it up... making your library maintenance tasks simple, painless, and fast.
+## MORE INFO
 
-2) Ender offers a way to bring together the awesome work happening in small frameworks and libraries that otherwise do only one thing, and allows you to mix, match, and customize your own library suited to your individual needs without all the extra cruft that comes with larger libraries.
+For more information checkout [http://ender.jit.su](http://ender.jit.su)
 
-GET STARTED NOW
----------------
+## BUILD STATUS
 
-Install [NodeJS](http://nodejs.org) and install [NPM](https://github.com/isaacs/npm).
+**Ender** [![Build Status](https://secure.travis-ci.org/ender-js/Ender.png)](http://travis-ci.org/ender-js/Ender)
 
-Then install ender globally with the command (Latest NPM):
+[Ender Args Parser](https://github.com/ender-js/ender-args-parser) [![Build Status](https://secure.travis-ci.org/ender-js/ender-args-parser.png)](http://travis-ci.org/ender-js/ender-args-parser)
 
-    $ [sudo] npm install ender -g
+[Ender Builder](https://github.com/ender-js/ender-builder) [![Build Status](https://secure.travis-ci.org/ender-js/ender-builder.png)](http://travis-ci.org/ender-js/ender-builder)
 
-or (NPM version < 1):
+[Ender Dependency Graph](https://github.com/ender-js/ender-dependency-graph) [![Build Status](https://secure.travis-ci.org/ender-js/ender-dependency-graph.png)](http://travis-ci.org/ender-js/ender-dependency-graph)
 
-    $ [sudo] npm install ender
+[Ender Installer](https://github.com/ender-js/ender-installer) [![Build Status](https://secure.travis-ci.org/ender-js/ender-installer.png)](http://travis-ci.org/ender-js/ender-installer)
 
-Once that has installed, to get a list of all the cool things you can do, just run this command in your terminal:
+[Ender Minify](https://github.com/ender-js/ender-minify) [![Build Status](https://secure.travis-ci.org/ender-js/ender-minify.png)](http://travis-ci.org/ender-js/ender-minify)
 
-    $ ender
+[Ender Package Util](https://github.com/ender-js/ender-package-util) [![Build Status](https://secure.travis-ci.org/ender-js/ender-package-util.png)](http://travis-ci.org/ender-js/ender-package-util)
 
-LEARN
------
+[Ender Repository](https://github.com/ender-js/ender-repository) [![Build Status](https://secure.travis-ci.org/ender-js/ender-repository.png)](http://travis-ci.org/ender-js/ender-repository)
 
-See how this stuff works and watch some [introduction videos](http://enderjs.com/learn)
+## Licence
 
-HELP & SUPPORT
-----------
-For development questions, issues, bugs, ideas, suggestions -- join the Ender community and send us your thoughts at [enderjs.com](http://enderjs.com)
+Ender is Copyright (c) 2012-2013 Dustin Diaz [@ded](https://twitter.com/ded), Jacob Thornton [@fat](https://twitter.com/fat) and Rod Vagg [@rvagg](https://twitter.com/rvagg) and licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.
